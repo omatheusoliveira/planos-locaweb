@@ -1,6 +1,8 @@
 
 # Frontend - Planos - Locaweb
 
+- O projeto em questão, foi feito o deploy no S3 da AWS para melhor visualização, para conferir, [clique aqui](http://choose-plan-locaweb.s3-website-sa-east-1.amazonaws.com).
+
 ## Descrição:
 ```
 Pequeno projeto para comprar um serviço de hosting, feito com Vue 2, Tailwind, Vuex como 
