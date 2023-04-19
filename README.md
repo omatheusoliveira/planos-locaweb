@@ -3,6 +3,10 @@
 
 - O projeto em questão, foi feito o deploy no S3 da AWS para melhor visualização, para conferir, [clique aqui](http://choose-plan-locaweb.s3-website-sa-east-1.amazonaws.com).
 
+> Utilize username: mor_2314 password: 83r5^_ para acessar o sistema
+
+![gif overview do projeto](https://media.discordapp.net/attachments/899352560379494450/1098088538622394528/Animacao.gif?width=1142&height=566)
+
 ## Descrição:
 ```
 Pequeno projeto para comprar um serviço de hosting, feito com Vue 2, Tailwind, Vuex como 
