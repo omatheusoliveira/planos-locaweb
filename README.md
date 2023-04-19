@@ -5,10 +5,11 @@
 
 ```
 Utilize as seguintes credenciais para acessar o sistema 
-username: mor_2314 password: 83r5^_ 
+username: mor_2314 
+password: 83r5^_ 
 ```
 
-![gif overview do projeto](https://media.discordapp.net/attachments/899352560379494450/1098088538622394528/Animacao.gif?width=1142&height=566)
+![](https://media.discordapp.net/attachments/899352560379494450/1098088538622394528/Animacao.gif?width=1142&height=566)
 
 ## Descrição:
 ```
