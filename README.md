@@ -33,7 +33,7 @@ Na raiz do projeto, crie um arquivo chamado .env, para receber a url da api, ela
 > No projeto em questão, foi usado a api https://fakestoreapi.com
 
 ```
-VUE_APP_BASE_URL=<url da api>
+VUE_APP_BASE_URL=url
 ```
 
 **Passo 3:**
