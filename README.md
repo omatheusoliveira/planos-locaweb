@@ -4,7 +4,8 @@
 - O projeto em questão, foi feito o deploy no S3 da AWS para melhor visualização, para conferir, [clique aqui](http://choose-plan-locaweb.s3-website-sa-east-1.amazonaws.com).
 
 ```
-Utilize as seguintes credenciais para acessar o sistema 
+Utilize as seguintes credenciais para acessar o sistema:
+
 username: mor_2314 
 password: 83r5^_ 
 ```
