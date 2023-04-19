@@ -1,27 +1,46 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Vue from "vue";
+import VueRouter from "vue-router";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
+    path: "/",
+    name: "login",
+    component: () => import(/* webpackChunkName: "login" */ '../views/Login/LoginView.vue')
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: "/home",
+    name: "home",
+    component: () => import(/* webpackChunkName: "home" */ '../views/Home/HomeView.vue')
+  },
+  {
+    path: "/choose-plan",
+    name: "choose-plan",
+    component: () => import(/* webpackChunkName: "register" */ '../views/Register/ChoosePlan.vue')
+  },
+  {
+    path: "/register",
+    name: "register",
+    component: () => import(/* webpackChunkName: "register" */ '../views/Register/RegisterView.vue')
   }
-]
+];
 
 const router = new VueRouter({
-  routes
+  routes,
+});
+
+
+router.beforeEach((to, from, next)=>{
+  const token = localStorage.getItem("token");
+  if ( to.name !== 'login' && to.name !== 'choose-plan' && to.name !== 'register' && !token ){
+    next({
+      name: 'login',
+      replace: true
+    })
+  } else {
+    next();
+  }
 })
 
-export default router
+export default router;
