@@ -3,7 +3,8 @@
 
 ## Descrição:
 ```
-Pequeno projeto para comprar um serviço de hosting, feito com Vue 2, Tailwind, Vuex como gerenciador de estado e JWT como autenticação
+Pequeno projeto para comprar um serviço de hosting, feito com Vue 2, Tailwind, Vuex como gerenciador de estado e 
+JWT como autenticação
 ```
 
 ## Tecnologias usadas: 
