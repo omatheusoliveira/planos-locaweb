@@ -9,7 +9,8 @@ username: mor_2314
 password: 83r5^_ 
 ```
 
-![](https://media.discordapp.net/attachments/899352560379494450/1098088538622394528/Animacao.gif?width=1142&height=566)
+![overview do sistema](https://user-images.githubusercontent.com/72708795/232961067-199d4f28-e724-4b5b-aaac-7155c1170a08.gif)
+
 
 ## Descrição:
 ```
